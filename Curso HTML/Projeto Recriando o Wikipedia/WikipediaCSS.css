@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    right: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background-color: rgb(214, 214, 214);
+}
+  
+.logo {
+    width: 6rem;
+    height: auto;
+}
+
+input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    color: black;
+    width: 50vh;
+    margin-left: 30vh;
+}
+  
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu li:hover {
+    transform: scale(1.2);
+}
+
+.divider {
+    height: 2px;
+    background-color: #000;
+    opacity: 0.2;
+}
+  
+#main {
+    display: flex;
+    justify-content: space-around;  
+    gap: 10rem;
+    padding: 3rem 12rem;
+}
+  
+.conteudo {
+    width: 70%;
+}
+  
+.categoria, .links {
+    width: 15%;
+}
+
+.categoria a, .links a, .conteudo a {
+    color: rgb(82, 82, 252);
+}
+
+.conteudo, .categoria, .links, h2  {
+    padding-bottom: 15px;
+}
+
+.conteudo p {
+    margin-top: 20px;
+}
+
+figure, figcaption {
+    display: grid;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.conteudo img {
+    margin: 60px 0px 5px 0px;
+    width: 30vh;
+    height: auto;
+}
+
+table {
+    background-color: lightcyan;
+    margin-top: 50px;
+    width: 100%;
+    border: rgba(0, 0, 0, 0.164) solid;
+    border-radius: 10px;
+  }
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+th {
+    background-color: rgb(188, 255, 255);
+  }
+  
+tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+
+.links {
+    border-left: rgba(0, 0, 0, 0.164) solid 2px;
+    padding-left: 20px;
+  }
+
+.categoria {
+  border-right: rgba(0, 0, 0, 0.164) solid 2px;
+  padding-right: 20px;
+}
+
+.links li {
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(214, 214, 214);
+    font-size: 14px;
+}
